@@ -9,3 +9,4 @@ Format: nn-\<first-10-hex-digits-of-sha256\>-\<yyyymmdd\>.nnue
  - nn-375bdd2d7f-20210112.nnue: Default net of Rubi-2.0. Learned from Rubi depth 8 training using eval of last net, 6-men-TB and disabled pruning using trainer of SV mod branch
  - nn-cf8c56d366-20210326.nnue: Default net of Rubi-2.1. Learned from Rubi depth 10-12 / depth 8 multipv training data using eval of last net and some improved/fixed gensfen code. Again the trainer of SV mod was used, this time with some parameters of SV workflow like Lambda=0.5
  - nn-673bf01913-20210421.nnue: Learned from Rubi depth 11-13 / depth 9 multipv training data using eval of last net and Rubi-pre-2.1 using the old scaling factor 64. Same trainer parameters as last net. Net seems slightly stronger (5-15 Elo).
+ - nn-72b4488f79-20210510.nnue: Same as last net even with same traing data but trained with Lambda=0.4. Tested nets from several epochs, this one wasn't the last accepted but the one before.
