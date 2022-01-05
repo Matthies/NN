@@ -12,3 +12,4 @@ Format: nn-\<first-10-hex-digits-of-sha256\>-\<yyyymmdd\>.nnue
  - nn-72b4488f79-20210510.nnue: Same as last net even with same traing data but trained with Lambda=0.4. Tested nets from several epochs, this one wasn't the last accepted but the one before.
 - nn-fb50f1a2b1-20210705.nnue: Default net of Rubi-2.2. Identical to 72b44 with just rescaled last layer to get back to trainer-compatible scaling "eval = netoutput / 16". This was supposed to lose some Elo but in fact it gained 4-6 Elo in three tests. 
 - nn-e4660d9c81-20220104.nnue: Finally right after release of Rubi 2021 a new master net. Epoche 17 trained on new training data (800M positions depth 9, pruning disabled) with SV trainer starting on old master net.
+- nn-555efa676e-20220105.nnue: Retraining starting with last net nn-e4660d9c81-20220104.nnue with same data. Some few more Elo.
