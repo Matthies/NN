@@ -15,3 +15,4 @@ Format: nn-\<first-10-hex-digits-of-sha256\>-\<yyyymmdd\>.nnue
 - nn-555efa676e-20220105.nnue: Retraining starting with last net nn-e4660d9c81-20220104.nnue with same data. Some few more Elo.
 - nn-49832fc04f-20220106.nnue: Epoche 26 of another retrain starting with nn-555efa676e-20220105.nnue. Another 10-15 Elo progress.
 - nn-26119c6435-20220109.nnue: Epoche 21 of another retrain starting with nn-49832fc04f-20220106.nnue. Another 3-5 Elo progress.
+- nn-e4977569c9-20220130.nnue: Epoche 51 of another retrain starting with nn-26119c6435-20220109.nnue and using nearly three billion positions, half of them created with latest net all of them well shuffled. Also using a set of mixed positions (old and new data) for validation. Progress is ~8 Elo.
