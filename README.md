@@ -17,3 +17,4 @@ Format: nn-\<first-10-hex-digits-of-sha256\>-\<yyyymmdd\>.nnue
 - nn-26119c6435-20220109.nnue: Epoche 21 of another retrain starting with nn-49832fc04f-20220106.nnue. Another 3-5 Elo progress.
 - nn-e4977569c9-20220130.nnue: Epoche 51 of another retrain starting with nn-26119c6435-20220109.nnue and using nearly three billion positions, half of them created with latest net all of them well shuffled. Also using a set of mixed positions (old and new data) for validation. Progress is ~8 Elo.
 - nn-7e8d2f1670-20220202.nnue: Rescaled last layer of  with a factor of 60/64 which gives another ~2 Elo.
+- nn-d585174582-20220214.nnue: Another training starting from last net and using all the latest well shuffled training data (created with nn-e4977569c9-20220130) and Nodchip/Sergio trainer. The last net from epoche 59 before trainer termination was tested best and further improved by rescaling the last layer with 56/64.
