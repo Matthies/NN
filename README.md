@@ -21,3 +21,4 @@ Format: nn-\<first-10-hex-digits-of-sha256\>-\<yyyymmdd\>.nnue
 - __nn-d458c5999d-20220222.nnue__:  Default net of Rubi-20220223. Another training session with well shuffled latest training data, now 3.5B positions in total. Net from epoch 82 tested best and further imroved with 56/64 scaling of last layer.
 - nn-bc67e15665-20220523.nnue: First time that a net trained with nnue-pytorch beats master. This is epoche 500 from a training starting with last master, using 2G depth9 positions created with last master, first 320 epochs with default parameters (in/outscaling 361), then resuming on last checkpoint with lambda=0.75. 4-7 Elo progress.
 - nn-d3b95fbbeb-20220524.nnue: Rescaled last layer of  with a factor of 56/64 which gives another ~4 Elo.
+- nn-b1c332ae1d-20220613.nnue: Some few Elo with this net trained with Nodchip/SV trainer on 1.8B fresh positions (epoche 104) and rescaled with 56/64 afterwards.
