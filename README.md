@@ -4,6 +4,8 @@ This repository contains network files created to use for NNUE based evaluation 
 
 Format: nn-\<first-10-hex-digits-of-sha256\>-\<yyyymmdd\>.nnue
 
+History of the network files that made it to master net at some point:
+
  - nn-f21733c196-20201028.nnue: Learned from Rubi depth 10 training positions (TB disabled) using the SF learner binary; +95 Elo +/-25 vs. HCE
  - __nn-803c91ad5c-20201107.nnue__: Default net of Rubi-1.9. Learned from Rubi depth 6 training using eval from last net, 6-men-TB and disabled pruning; net passed SPRT test and was slighly better in 10-engines-gauntlet
  - __nn-375bdd2d7f-20210112.nnue__: Default net of Rubi-2.0. Learned from Rubi depth 8 training using eval of last net, 6-men-TB and disabled pruning using trainer of SV mod branch
