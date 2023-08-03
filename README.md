@@ -32,4 +32,5 @@ History of the network files that made it to master net at some point:
 - __nn-fdccaaabd3-20230314.nnue__: Default net of Rubi-20230410. Continued training beginning from checkpoint of last master net using complete binpack including latest training positions.
 - nn-d901a1822f-20230606.nnue: This is epoch 509 of training a net with input layer 1024 from scratch using latest training position and usual parameters. Training took 10 days on my GTX 1050Ti. Net seems equal to current 768 master on STC and +5 Elo at LTC. Expected a little more.
 - nn-1701a2eb23-20230619.nnue: This is functional identical to last net but supports the sparse propagation of first level in the sense of neurons are ordered by the activation statistics of a depth 36 search on start position. I like the first 5 letters of the sha256 so maybe I should release and finish project here :-)
-- nn-8add7b5546-202300619.nnue: Compressed version of nn-1701a2eb23-20230619.nnue.
+- nn-8add7b5546-20230619.nnue: Compressed version of nn-1701a2eb23-20230619.nnue.
+- nn-eb5456adef-20230801.nnue: Continued training starting from snapshot 509 of last training for another 100 epochs. Removed oldest 25% training data and added the same amount of new data so that training still based on ~40GB binpacks. 
