@@ -35,6 +35,7 @@ History of the network files that made it to master net at some point:
 - nn-8add7b5546-20230619.nnue: Compressed version of nn-1701a2eb23-20230619.nnue.
 - __nn-c257b2ebf1-20230812.nnue__: Default net of Rubi-20230918 and Rubi-20240112. Continued training starting from snapshot 509 of last training for another 100 epochs. Removed oldest 25% training data and added the same amount of new data so that training still based on ~40GB binpacks. Finally sorted first layer for sparse propagation on a depth 36 startpos bench.
 - __nn-bc638d5ec9-20240730.nnue__: Trained from scratch for 400 epochs on 55GB binpack data, replaced oldest 13GB of data with 26GB of new data compared to last training.
-- __nn-6627982c33-20250106.nnue__: SPSA-tuned last layer of bc638d5ec9.
-- __nn-f05142b28f-20250520.nnue__: Epoch 614 of latest training from scratch with latest set of training data (almost identical to the set used for bc638d5ec9) and first layer ordered for sparse propagation. Used lambda 0.8 up to epoch 614 and failed to improve trying different values for lambda 0.6..0.9 starting from checkpoint of 614.
-- __nn-6df63d0990-20251019.nnue__: Epoch 660 of training from scratch with latest set of training data.
+- nn-6627982c33-20250106.nnue: SPSA-tuned last layer of bc638d5ec9.
+- nn-f05142b28f-20250520.nnue: Epoch 614 of latest training from scratch with latest set of training data (almost identical to the set used for bc638d5ec9) and first layer ordered for sparse propagation. Used lambda 0.8 up to epoch 614 and failed to improve trying different values for lambda 0.6..0.9 starting from checkpoint of 614.
+- nn-6df63d0990-20251019.nnue: Epoch 660 of training from scratch with latest set of training data.
+- nn-be4dcd7c83-20251031.nnue: Continued last training and this is epoch 762.
