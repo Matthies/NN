@@ -39,3 +39,4 @@ History of the network files that made it to master net at some point:
 - nn-f05142b28f-20250520.nnue: Epoch 614 of latest training from scratch with latest set of training data (almost identical to the set used for bc638d5ec9) and first layer ordered for sparse propagation. Used lambda 0.8 up to epoch 614 and failed to improve trying different values for lambda 0.6..0.9 starting from checkpoint of 614.
 - nn-6df63d0990-20251019.nnue: Epoch 660 of training from scratch with latest set of training data.
 - nn-be4dcd7c83-20251031.nnue: Continued last training and this is epoch 762.
+- nn-6b25a84c8a-20260809.nnue: First network using the "SFNNv13" architecture trained for 800 epochs with the corresponding version of the nnue-pytorch trainer and using the same training data as the last network (creating training data lacks the old servers and is on hold).
