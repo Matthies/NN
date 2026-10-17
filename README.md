@@ -40,3 +40,5 @@ History of the network files that made it to master net at some point:
 - nn-6df63d0990-20251019.nnue: Epoch 660 of training from scratch with latest set of training data.
 - nn-be4dcd7c83-20251031.nnue: Continued last training and this is epoch 762.
 - nn-6b25a84c8a-20260809.nnue: First network using the "SFNNv13" architecture trained for 800 epochs with the corresponding version of the nnue-pytorch trainer and using the same training data as the last network (creating training data lacks the old servers and is on hold).
+- nn-da9c99e92a-20260819.nnue: Improved network after continued training for another 1000 epochs.
+- nn-843a8e0936-20261017.nnue: Network trained on latest training date (old server running again) using some of the hyper parameters in the nettest recipe and training for 3000 epochs.
